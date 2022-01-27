@@ -1,5 +1,5 @@
 vim.opt.list = true
-vim.g.indent_blankline_filetype_exclude = {"lspinfo", "packer", "checkhealth", "alpha", "telescope", "help", ""}
+vim.g.indent_blankline_filetype_exclude = {"lspinfo", "packer", "checkhealth", "alpha", "telescope", "help", "glowpreview", ""}
 
 require("indent_blankline").setup({
 	show_end_of_line = false,
